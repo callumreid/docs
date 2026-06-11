@@ -826,8 +826,8 @@
               {
                 "group": "Commands",
                 "pages": [
-                  "api-reference/cli/eval",
                   "api-reference/cli/init",
+                  "api-reference/cli/eval",
                   "api-reference/cli/tail",
                   {
                     "group": "cloud",
