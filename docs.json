@@ -828,7 +828,6 @@
                 "pages": [
                   "api-reference/cli/init",
                   "api-reference/cli/eval",
-                  "api-reference/cli/tail",
                   {
                     "group": "cloud",
                     "pages": [
@@ -2321,7 +2320,7 @@
     },
     {
       "source": "/cli/tail",
-      "destination": "/api-reference/cli/tail"
+      "destination": "/api-reference/cli/overview"
     },
     {
       "source": "/cli/cloud/agent",

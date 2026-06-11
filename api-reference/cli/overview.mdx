@@ -19,11 +19,11 @@ description: "Command-line tool for scaffolding, deploying, and monitoring Pipec
     Push your bots to production with one command
   </Card>
   <Card
-    title="Monitor Live Bots"
-    icon="chart-line"
-    href="/api-reference/cli/tail"
+    title="Run Behavioral Evals"
+    icon="vial-circle-check"
+    href="/api-reference/cli/eval"
   >
-    Watch real-time logs, conversations, and metrics
+    Test your agents with scripted scenarios and an LLM judge
   </Card>
 </CardGroup>
 
@@ -51,7 +51,7 @@ pipecat --version
 
 **[`pipecat init`](/api-reference/cli/init)** - Scaffold new projects with interactive setup
 
-**[`pipecat tail`](/api-reference/cli/tail)** - Monitor sessions in real-time with a terminal dashboard
+**[`pipecat eval`](/api-reference/cli/eval)** - Run behavioral evals against your agents
 
 **[`pipecat cloud`](/api-reference/cli/cloud/auth)** - Deploy and manage bots on Pipecat Cloud
 
@@ -62,7 +62,7 @@ View help for any command:
 ```bash
 pipecat --help
 pipecat init --help
-pipecat tail --help
+pipecat eval --help
 pipecat cloud --help
 ```
 
